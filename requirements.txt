@@ -1,4 +1,46 @@
+# Core Dependencies
 streamlit>=1.35.0
 pandas>=2.0.0
 numpy>=1.24.0
 plotly>=5.20.0
+
+# Machine Learning & Forecasting
+lightgbm>=4.0.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Time Series Forecasting
+skforecast>=0.10.0
+statsmodels>=0.14.0
+
+# Data Validation & Quality
+great-expectations>=0.18.0
+pandera>=0.18.0
+cerberus>=1.3.4
+
+# AI & LLM Integration
+langchain>=0.1.0
+langchain-openai>=0.0.5
+crewai>=0.1.0
+anthropic>=0.7.0
+
+# Data Processing
+pyarrow>=12.0.0
+openpyxl>=3.1.0
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# API & Web
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+loguru>=0.7.0
+
+# Development (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
